@@ -43,6 +43,8 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
+  filter: blur(1px);
+  filter: grayscale(100%);
 }
 
 .simpleslide100-item {
@@ -104,7 +106,7 @@ Primary use:
 
 .l1-txt1 {
   font-family: Lato-Hairline;
-  font-size: 72px;
+  font-size: 70px;
   line-height: 1.1;
   color: #fff;
   text-transform: uppercase;
@@ -112,7 +114,7 @@ Primary use:
 
 .l1-txt2 {
   font-family: PlayfairDisplay-Italic;
-  font-size: 85px;
+  font-size: 72px;
   line-height: 1;
   color: #fff;
   /* text-transform: uppercase; */
@@ -414,4 +416,9 @@ Primary use:
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+
+#mainlogo {
+  /* transform: scale(0.5);
+  width: 50%; */
 }
