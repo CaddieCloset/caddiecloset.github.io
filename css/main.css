@@ -43,8 +43,8 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  filter: blur(1px);
   filter: grayscale(100%);
+  
 }
 
 .simpleslide100-item {
